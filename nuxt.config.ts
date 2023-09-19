@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'CreditYou',
-    }
+    },
   },
   nitro: {
     experimental: {
@@ -13,6 +13,6 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui'],
   ui: {
     global: true,
-    icons: ['mdi', 'simple-icons']
-  }
+    icons: ['mdi', 'simple-icons'],
+  },
 })
