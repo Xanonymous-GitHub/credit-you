@@ -1,5 +1,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  app: {
+    head: {
+      title: 'CreditYou',
+    }
+  },
   nitro: {
     experimental: {
       wasm: true,
